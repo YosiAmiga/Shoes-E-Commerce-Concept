@@ -1,0 +1,439 @@
+@import url("https://fonts.googleapis.com/css?family=Gothic+A1|Kaushan+Script|Libre+Baskerville|Lobster");
+.body {
+  font-family: "Gothic A1", sans-serif;
+  font-size: 16px;
+}
+p {
+  color: #6c6c6f;
+  font-size: 1em;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #323233;
+  text-transform: uppercase;
+}
+
+/*New Nav bar*/
+.nav {
+  height: 50px;
+  width: 100%;
+  background-color: #4d4d4d;
+  position: fixed;
+}
+
+.nav > .nav-header {
+  display: inline;
+}
+
+.nav > .nav-header > .nav-title {
+  display: inline-block;
+  font-size: 22px;
+  color: #fff;
+  padding: 10px 10px 10px 10px;
+}
+
+.nav > .nav-btn {
+  display: none;
+}
+
+.nav > .nav-links {
+  font-size: 18px;
+}
+
+.nav > .nav-links > a {
+  display: inline-block;
+  padding: 13px 10px 13px 10px;
+  text-decoration: none;
+  color: #efefef;
+}
+
+.nav > .nav-links > a:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.nav > #nav-check {
+  display: none;
+}
+
+/*Commercial Area => to make it follow you by scroll, remove the comments from position + top */
+.comright {
+  display: block;
+  float: right;
+  /* position: sticky;
+  top: 0; */
+}
+
+/* .comright img {
+  /*Put here width and height in PX you want to the image so it will be permanent.
+} */
+
+.comleft {
+  display: block;
+  float: left;
+  /* position: sticky;
+  top: 0; */
+}
+
+/* .comleft img {
+  /*Put here width and height in PX you want to the image so it will be permanent.
+} 
+
+/*Heading*/
+.page-heading {
+  padding: 210px 0px 130px 0px;
+  text-align: center;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("./images/111.jpeg");
+}
+
+.page-heading .text-content h4 {
+  color: #ffffff;
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.page-heading .text-content h2 {
+  color: #fff;
+  font-size: 62px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+/*Cards Section*/
+.latest-products {
+  margin-top: 100px;
+}
+
+.latest-products .section-heading a {
+  float: right;
+  margin-top: -35px;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 700;
+  color: #f33f3f;
+}
+
+.product-item {
+  border: 1px solid black;
+  margin-bottom: 30px;
+}
+
+.product-item .down-content {
+  padding: 30px;
+  position: relative;
+}
+
+.product-item img {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+}
+
+.product-item .down-content h4 {
+  font-size: 17px;
+  color: #1a6692;
+  margin-bottom: 20px;
+}
+
+.product-item .down-content h6 {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  font-size: 18px;
+  color: #121212;
+}
+
+.product-item .down-content p {
+  margin-bottom: 20px;
+}
+
+.product-item .down-content ul li {
+  display: inline-block;
+}
+
+.product-item .down-content ul li i {
+  color: #f33f3f;
+  font-size: 14px;
+}
+
+.product-item .down-content span {
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+  font-size: 13px;
+  color: #f33f3f;
+  font-weight: 500;
+}
+
+ul {
+  padding-top: 20px;
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+  margin-right: 25px;
+}
+
+ul li {
+  color: #050505;
+  font-family: "muli";
+  margin-top: 20px;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.bg {
+  width: 15px;
+  height: 15px;
+  text-align: center;
+  padding: 2px;
+  margin-right: 20px;
+  transition: 0.3s all ease;
+  border-radius: 50%;
+}
+
+.bg:hover {
+  background-color: #ff6d39;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+}
+
+/*List of colors*/
+
+.blue {
+  content: "";
+  width: 13px;
+  height: 13px;
+  background-color: #02a2ca;
+  border-radius: 50%;
+  border: 2px solid rgba(0, 0, 0, 0);
+  transition: 0.3s all ease;
+}
+
+.grey {
+  content: "";
+  width: 13px;
+  height: 13px;
+  background-color: #6c757d;
+  border-radius: 50%;
+  border: 2px solid rgba(0, 0, 0, 0);
+  transition: 0.3s all ease;
+}
+
+.green {
+  content: "";
+  width: 13px;
+  height: 13px;
+  background-color: #007f5f;
+  border-radius: 50%;
+  border: 2px solid rgba(0, 0, 0, 0);
+  transition: 0.3s all ease;
+}
+
+.red {
+  content: "";
+  width: 13px;
+  height: 13px;
+  background-color: #e5383b;
+  border-radius: 50%;
+  border: 2px solid rgba(0, 0, 0, 0);
+  transition: 0.3s all ease;
+}
+
+.white {
+  content: "";
+  width: 13px;
+  height: 13px;
+  background-color: #f5f3f4;
+  border-radius: 50%;
+  border: 2px solid black;
+  transition: 0.3s all ease;
+}
+
+.blue:hover,
+.grey:hover,
+.green:hover,
+.red:hover,
+.white:hover {
+  border: 2px solid #f76b39;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+/*Cards Section Ends*/
+
+/* Find us */
+
+.find-us {
+  margin-top: 100px;
+}
+
+.find-us p {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+
+.find-us h4 {
+  font-size: 17px;
+  color: #1a6692;
+  margin-bottom: 20px;
+}
+
+.find-us .left-content {
+  margin-left: 30px;
+}
+
+/* Send Message */
+
+.send-message {
+  margin-top: 100px;
+}
+
+.contact-form input {
+  font-size: 14px;
+  width: 100%;
+  height: 44px;
+  display: inline-block;
+  line-height: 42px;
+  border: 2px solid black;
+  border-radius: 0px;
+  margin-bottom: 30px;
+}
+
+.contact-form input:focus {
+  box-shadow: none;
+  border: 2px solid black;
+}
+
+.contact-form textarea {
+  font-size: 14px;
+  width: 100%;
+  min-width: 100%;
+  min-height: 120px;
+  height: 120px;
+  max-height: 180px;
+  border: 2px solid black;
+  border-radius: 0px;
+  margin-bottom: 30px;
+}
+
+.contact-form textarea:focus {
+  box-shadow: none;
+  border: 1px solid #eee;
+}
+
+.contact-form button.filled-button {
+  background-color: #f33f3f;
+  color: #fff;
+  font-size: 14px;
+  text-transform: capitalize;
+  font-weight: 300;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: inline-block;
+  transition: all 0.3s;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.contact-form button.filled-button:hover {
+  background-color: #121212;
+  color: #fff;
+}
+
+/* Team Members */
+
+.team-members {
+  margin-top: 100px;
+}
+
+.team-member {
+  border: 1px solid #eee;
+  margin-bottom: 30px;
+}
+
+.team-member img {
+  width: 100%;
+  overflow: hidden;
+}
+
+.team-member .down-content {
+  padding: 30px;
+  text-align: center;
+}
+
+.team-member .down-content h4 {
+  font-size: 17px;
+  color: #1a6692;
+  margin-bottom: 8px;
+}
+
+.team-member .down-content span {
+  display: block;
+  font-size: 13px;
+  color: #f33f3f;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+/*This is responsive yossi, aka mobile view */
+@media (max-width: 600px) {
+  .nav > .nav-btn {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+  .nav > .nav-btn > label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+  }
+  .nav > .nav-btn > label:hover,
+  .nav #nav-check:checked ~ .nav-btn > label {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  .nav > .nav-btn > label > span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 2px solid #eee;
+  }
+  .nav > .nav-links {
+    position: absolute;
+    display: block;
+    width: 100%;
+    background-color: #333;
+    height: 0px;
+    transition: all 0.3s ease-in;
+    overflow-y: hidden;
+    top: 50px;
+    left: 0px;
+  }
+  .nav > .nav-links > a {
+    display: block;
+    width: 100%;
+  }
+  .nav > #nav-check:not(:checked) ~ .nav-links {
+    height: 0px;
+  }
+  .nav > #nav-check:checked ~ .nav-links {
+    height: calc(100vh - 50px);
+    overflow-y: auto;
+  }
+}
